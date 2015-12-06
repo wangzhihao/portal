@@ -1,8 +1,49 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+.portals.mdl-layout .mdl-grid{
+  width: 550px;
+}
+.portals.mdl-layout .mdl-layout__content {
+  padding-top: 80px;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+}
+
+.philosophy.mdl-card {
+  width: 100%;
+}
+.philosophy > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('../images/philosophy.jpg') center / cover;
+}
+.philosophy > .mdl-card__menu {
+  color: #fff;
+}
+
+.music.mdl-card {
+  width: 100%;
+}
+.music > .mdl-card__title {
+  color: #fff;
+  height: 246px;
+  background:
+    url('../images/beethoven.jpeg') center / cover;
+}
+
+
+.cs.mdl-card {
+  width: 100%;
+}
+.cs > .mdl-card__title {
+  color: #fff;
+  height: 246px;
+  background:
+    url('../images/turing.jpeg') center / cover;
 }
