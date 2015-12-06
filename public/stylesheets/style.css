@@ -1,63 +1,72 @@
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+    color: #00B7FF;
 }
 
-.portals.mdl-layout .mdl-grid{
-  width: 550px;
+@media screen and (min-width: 736px) {
+    .portals.mdl-layout .mdl-grid {
+        width: 550px;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .portals.mdl-layout .mdl-grid {
+        width: 80%;
+    }
 }
 .portals.mdl-layout .mdl-layout__content {
-  padding-top: 80px;
-  position: relative;
-  -webkit-overflow-scrolling: touch;
+    padding-top: 80px;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
 }
 
-.portals.mdl-layout .mdl-card__supporting-text{
-  font-size: 1em;
+.portals.mdl-layout .mdl-card__supporting-text {
+    font-size: 1em;
 }
 
 .philosophy.mdl-card {
-  width: 100%;
+    width: 100%;
 }
+
 .philosophy > .mdl-card__title {
-  color: #fff;
-  height: 246px;
-  background: url('../images/philosophy.jpg') center / cover;
+    color: #fff;
+    height: 246px;
+    background: url('../images/philosophy.jpg') center / cover;
 }
+
 .philosophy > .mdl-card__menu {
-  color: #fff;
+    color: #fff;
 }
 
 .music.mdl-card {
-  width: 100%;
-}
-.music > .mdl-card__title {
-  color: #fff;
-  height: 246px;
-  background:
-    url('../images/beethoven.jpeg') center / cover;
+    width: 100%;
 }
 
+.music > .mdl-card__title {
+    color: #fff;
+    height: 246px;
+    background: url('../images/beethoven.jpeg') center / cover;
+}
 
 .cs.mdl-card {
-  width: 100%;
+    width: 100%;
 }
+
 .cs > .mdl-card__title {
-  color: #fff;
-  height: 246px;
-  background:
-    url('../images/turing.jpeg') center / cover;
+    color: #fff;
+    height: 246px;
+    background: url('../images/turing.jpeg') center / cover;
 }
 
 .literature.mdl-card {
-  width: 100%;
+    width: 100%;
 }
+
 .literature > .mdl-card__title {
-  color: #fff;
-  height: 246px;
-  background:
-    url('../images/shakespeare.jpeg') center / cover;
+    color: #fff;
+    height: 246px;
+    background: url('../images/shakespeare.jpeg') center / cover;
 }
