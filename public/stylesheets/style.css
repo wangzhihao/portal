@@ -47,3 +47,13 @@ a {
   background:
     url('../images/turing.jpeg') center / cover;
 }
+
+.literature.mdl-card {
+  width: 100%;
+}
+.literature > .mdl-card__title {
+  color: #fff;
+  height: 246px;
+  background:
+    url('../images/shakespeare.jpeg') center / cover;
+}
