@@ -15,6 +15,10 @@ a {
   -webkit-overflow-scrolling: touch;
 }
 
+.portals.mdl-layout .mdl-card__supporting-text{
+  font-size: 1em;
+}
+
 .philosophy.mdl-card {
   width: 100%;
 }
