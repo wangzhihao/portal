@@ -17,6 +17,11 @@ a {
         width: 80%;
     }
 }
+
+.portals.mdl-layout .mdl-card:hover {
+  cursor: pointer;
+}
+
 .portals.mdl-layout .mdl-layout__content {
     padding-top: 80px;
     position: relative;
